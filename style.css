@@ -1,0 +1,378 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container{
+    height: 80px;
+    width: 99.4%;
+    /* background-color:rgb(144, 209, 91); */
+    display: flex;
+    justify-content: center;
+    border: 5px solid pink;
+    /* border-top: 10px solid rgb(53, 31, 134); */
+    
+}
+
+.container{
+    height: 80px;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    /* top: 20px; */
+}
+
+/* /* .logo_cont{
+    width:100%;
+    height: 70px;
+    background-color: rgb(58, 49, 49);
+    display: flex;
+    /* justify-content: center;
+    align-items: center; 
+} */
+
+.logo{
+    width:15%;
+    height: 80px;
+    /* background-color: beige; */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.menu{
+    width: 45%;
+    height: 78px;
+    /* background-color:chocolate ;  */
+}
+
+.menu-links{
+        display: flex;
+        color: black;
+}
+
+.menu-link{
+    list-style-type: none;
+    height: 70px;
+    width: 80%;
+    font-size: medium;
+    text-align: center;
+    line-height: 90px;
+    cursor: pointer;
+}
+.menu-link:hover{
+    background-color: gray;
+}
+
+a{
+    /* text-decoration: none; */
+    cursor: pointer;
+}
+
+.wallpaper{
+    height: 450px;
+    width : 100%;
+    /* background-color: blue; */
+    background-image: url("./images/pexels-this-is-zun-1116302.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    /* align-items:center; */
+    align-items: end;
+    padding-top: 20px;
+    border-bottom: 5px solid rgb(230, 131, 120);
+}
+
+.wall-container{
+    height: 150px;
+    width: 35%;
+    /* background-color:cadetblue; */
+    margin-left: 35%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:end;
+    font-size: 30px;
+    /* font-weight: bold; */
+    text-align: center;
+    /* line-height: 60px; */
+    color: rgb(185, 115, 142);
+}
+
+h5{
+    font-weight: bold;
+    /* padding-top: 20px; */
+    line-height: 60px;
+    color: black;
+}
+
+.btn{
+    padding: 10px;
+    height: 67px;
+    width: 166px;
+    border: 1px solid;
+    /* border-radius: 50px; */
+    background-color: chocolate;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.services{
+    padding-top: 20px;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    -webkit-text-stroke: 0.5px rgb(60, 130, 153);
+    color: black;
+    background-color: rgba(218, 214, 214, 0.952);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-ser-heading{
+    margin-top: 20px;
+    position: absolute;
+    top: 580px;
+}
+
+.ele{
+    height: 400px;
+    width: 20%;
+    /* font-size: 30px; */
+    /* background-color: azure; */
+}
+
+/* .ele1{
+    background-color: aqua;
+}
+
+.ele2{
+    background-color: aquamarine;
+}
+
+.ele3{
+    background-color:burlywood;
+}
+
+.ele4{
+    background-color:bisque;
+} */
+
+.ser-img{
+    margin-top: 50px;
+    margin-left: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.ser-heading{
+    margin-top: 20px;
+    text-align: start;
+    font-weight: lighter;
+}
+
+.ser-para{
+    margin-top: 30px;
+    text-align: start;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.ser-btn{
+    /* margin-top: 10px; */
+    line-height: 60px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.recommended{
+    /* height: 400px;
+    width: 100%;
+    background-color:cornsilk;
+    /* margin: 20px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: white;
+    margin: 60px auto;
+    /* background-color: rgb(73, 78, 116); */
+    justify-content: space-evenly;
+}
+
+.rec-heading{
+    position: absolute;
+    top: 1125px;
+    align-items: center;
+    color: hotpink;
+    background-color: lightblue;
+}
+
+.nxt-ele{
+    height: 200px;
+    width: 20%;
+}
+
+.article1{
+    /* background-color: aquamarine; */
+    background-image: url("./images/pexels-karolina-grabowska-4968391.jpg");
+    background-size: cover;
+    font-weight: bold;
+    cursor: pointer;
+}
+.article2{
+    background-color:blueviolet;
+    background-image: url("./images/rew.jfif");
+    background-size: cover;
+    background-position: right;
+    font-weight: bold;
+    cursor: pointer;
+}
+.article3{
+    background-color: coral;
+    background-image: url("./images/kyc.jfif");
+    background-size: cover;
+    font-weight: bold;
+    cursor: pointer;
+}
+.article4{
+    background-color: violet;
+    background-image: url("./images/credit.jpg");
+    background-size: cover;
+    background-position: above;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* CSS of About */
+
+.about-background{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(230, 225, 225);
+    padding-top: 20PX;
+    text-align: center;
+    /* justify-content: center; */
+    line-height: 60px;
+}
+
+.abt-container{
+    /* margin-top: 30px; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.abt-img{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: center; */
+}
+
+.abt-ele{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+}
+
+.abt-para{
+    padding: 5px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+}
+
+/* footer css */
+
+ .footer-cont{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(32, 32, 32);
+    color: white;
+}
+
+.footer-head{
+    /* width: 30%; */
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.footer-head1{
+    width: 30%;
+}
+
+.footer-head2{
+    width: 30%;
+}
+
+.footer-head3{
+    width: 20%;
+}
+.footer-head4{
+    width: 20%;
+}
+.footer-inner{
+    color: gray;
+    line-height: 40px;
+    cursor: pointer;
+}
+.footer-inner2{
+    color: gray;
+    /* line-height: 20px; */
+    cursor: pointer;
+}
+
+/* Customer list */
+
+.customers {
+    color: rgb(255, 207, 84);
+}
+
+.table-container{
+    text-align: center;
+    width: 97%;
+    height: 700px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* display: flex;
+    justify-content: ; */
+    min-height: 100vh;
+    
+}
+.Table-row1{
+    background-color: cyan;
+}
+.Table-row3{
+    background-color: rgb(215,215,215);
+}
+
+.container0{
+    text-align: center;
+}
